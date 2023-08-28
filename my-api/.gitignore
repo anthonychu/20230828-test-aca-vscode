@@ -1,0 +1,29 @@
+# Ignore .NET Core build artifacts
+bin/
+obj/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore user-specific files
+*.user
+
+# Ignore NuGet packages
+*.nupkg
+
+# Ignore build scripts
+build.ps1
+build.sh
+
+# Ignore .NET Core configuration files
+appsettings.json
+appsettings.Development.json
+launchSettings.json
+
+# Ignore .NET Core tool manifest file
+.dotnet-tools.json
+
+# Ignore .NET Core project-specific files
+*.csproj
+*.csproj.user
+*.sln
